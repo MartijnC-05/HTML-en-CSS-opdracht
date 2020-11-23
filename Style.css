@@ -1,5 +1,5 @@
 p {
-    color: red;
+    color: black;
 }
 
 a {
@@ -12,6 +12,43 @@ body {
 }
 
 h1 {
-    color: #ffc;
+    color: white;
     background-color: #009;
+	line-height:2.0;
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.0em;
+	color: red;
+	Font-family: (times new roman)
+
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 0.1em;
+    word-spacing: 0.05em;
+    line-height: 0.5;
+    text-align: left;
 }

@@ -28,6 +28,9 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    background-color: #ccc;
+    margin: 0px;
+    padding: 1px;
 }
 
 h4 {
@@ -47,7 +50,7 @@ strong {
 }
 
 p {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     word-spacing: 0.05em;
     line-height: 0.5;
     text-align: left;

@@ -29,8 +29,6 @@ h1 {
 	font-size: 2em;
 	border-style: solid;
 	border-width: 5px;
-	border-left-width: 5px;
-	border-right-width: 5px;
 	border-color: black;
 	text-decoration: underline;
 	
@@ -50,7 +48,7 @@ h2 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 16px;
 	color: red;
 	Font-family: (times new roman)
 }
@@ -65,4 +63,37 @@ img {
     border-style: dashed;
     border-width: 2px;
     border-color: #ccc;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#t01 {
+  background-color: white;
+}
+
+#t01 td:nth-child(1) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(1) {
+  background-color: #eee;
+}
+
+#t01 th {
+  color: white;
+  background-color: black;
+}
+
+p 	{
+	color: black;
+	border-color: #ccc;
 }
